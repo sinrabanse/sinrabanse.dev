@@ -67,9 +67,13 @@
     </section>
 
     <footer>
-      <p>&copy; 2025 Aleksandr Arkhipov</p>
+      <p>&copy; <span id="year"></span> Aleksandr Arkhipov</p>
     </footer>
 
     <script src="lang.js"></script>
+    <script>
+      // Подставляем текущий год в футер
+      document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
   </body>
 </html>

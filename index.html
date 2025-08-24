@@ -12,6 +12,11 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+    <div id="photo-intro">
+      <img src="your-photo.png" alt="Aleks Photo" />
+    </div>
+
+    <div id="curtain"></div>
     <header>
       <h1 id="name"></h1>
       <p id="title"></p>
@@ -87,6 +92,51 @@
     <script src="lang.js"></script>
     <script>
       document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+    <!-- ScrollMagic -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.8/ScrollMagic.min.js"></script>
+    <!-- Индикаторы (для отладки, можно убрать потом) -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.8/plugins/debug.addIndicators.min.js"></script>
+    <script>
+      // Создаем контроллер
+      var controller = new ScrollMagic.Controller();
+
+      // Берем все секции
+      document.querySelectorAll("section").forEach(function (sec) {
+        new ScrollMagic.Scene({
+          triggerElement: sec, // срабатывает, когда секция попадает в зону видимости
+          triggerHook: 0.9, // 0 = верх экрана, 1 = низ экрана
+          reverse: false, // анимация только один раз (без отката назад)
+        })
+          .setClassToggle(sec, "visible") // добавляем класс
+          // .addIndicators() // подсказки для отладки
+          .addTo(controller);
+      });
+    </script>
+    <script>
+      window.addEventListener("load", function () {
+        document.getElementById("curtain").classList.add("hide");
+      });
+    </script>
+    <script>
+      const intro = document.getElementById("photo-intro");
+
+      // Сначала выглядывание слева
+      setTimeout(() => {
+        // 2. Сначала выглядывание слева
+        intro.classList.add("peek-left");
+      }, 2000);
+
+      // Через 2.5 сек выглядывание справа
+      setTimeout(() => {
+        intro.classList.remove("peek-left");
+        intro.classList.add("peek-right");
+      }, 4000);
+
+      // Через 5 сек полностью скрыть
+      setTimeout(() => {
+        intro.style.display = "none";
+      }, 6000);
     </script>
   </body>
 </html>

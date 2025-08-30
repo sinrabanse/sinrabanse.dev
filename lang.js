@@ -1,126 +1,11 @@
-const translations = {
-  ru: {
-    name: "Александр Архипов",
-    title: "QA инженер | Ручное и автоматизированное тестирование",
-    aboutTitle: "Обо мне",
-    aboutText:
-      "Я инженер по тестированию (QA) с практическим опытом как ручного, так и автоматизированного \
-      тестирования. Обладаю навыками работы с Selenium (Python) и Playwright (JavaScript), хорошо разбираюсь \
-      в тестовой документации, SQL и API-тестировании. Увлечён автоматизацией, но при необходимости с лёгкостью выполняю ручное тестирование.",
-    skillsTitle: "Навыки",
-    skillsList: [
-      "Ручное тестирование",
-      "Автоматизированное тестирование (Selenium, Playwright)",
-      "Тестовая документация и тест-кейсы",
-      "SQL и API тестирование",
-      "Базовые навыки анализа данных",
-    ],
-    educationTitle: "Образование и курсы",
-    educationList: [
-      "2024, Курс QA, Technion — Израильский технологический институт",
-      "2023, Курс Data Analyst, TripleTen Израиль",
-    ],
-    projectsTitle: "Проекты",
-    projectsList: [
-      "2025, Ivory.co.il – Python Selenium Automation (Pet Project)",
-      "2025, Ivory.co.il – JavaScript Playwright Automation (Pet Project)",
-    ],
-    languageTitle: "Языки",
-    languageEngName: "Английский",
-    languageEngLvl: "Свободно",
-    languageHebName: "Иврит",
-    languageHebLvl: "Средний",
-    languageRusName: "Русский",
-    languageRusLvl: "Родной",
-    experienceTitle: "Опыт работы",
-    experienceList: [
-      "Supply & Tenders Coordinator, Logistics & Sales (6 лет)",
-      "QA Projects & Automation Practice (самостоятельно)",
-    ],
-    contactTitle: "Контакты",
-  },
-  en: {
-    name: "Aleksandr Arkhipov",
-    title: "QA Engineer",
-    aboutTitle: "About me",
-    aboutText:
-      "I am a QA Engineer with hands-on experience in both manual and automated testing. Skilled in Selenium (Python) and\
-       Playwright (JavaScript), with a strong understanding of test documentation, SQL, and API testing. Passionate about \
-       automation and comfortable performing manual testing when needed.",
-    skillsTitle: "Skills",
-    skillsList: [
-      "Manual Testing",
-      "Automated Testing (Selenium, Playwright)",
-      "Test Documentation & Test Cases",
-      "SQL & API Testing",
-      "Data Analysis Basics",
-    ],
-    educationTitle: "Education and Courses",
-    educationList: [
-      "2024, QA Course, Technion - Israel Institute of Technology",
-      "2023, Data Analyst Professional Course, TripleTen Israel",
-    ],
-    projectsTitle: "Projects",
-    projectsList: [
-      "2025, Ivory.co.il – Python Selenium Automation (Pet Project)",
-      "2025, Ivory.co.il – JavaScript Playwright Automation (Pet Project)",
-    ],
-    experienceTitle: "Work Experience",
-    experienceList: [
-      "2025 – QA Tester, uTest (freelance)",
-      "2018-2024 – Supply&Tenders Coordinator, B2China.ru (computer hardware)",
-    ],
-    languageTitle: "Languages",
-    languageText: "English (B2), Hebrew (A2), Russian (native)",
-    languageEngName: "English",
-    languageEngLvl: "Fluent",
-    languageHebName: "Hebrew",
-    languageHebLvl: "Intermediate",
-    languageRusName: "Russian",
-    languageRusLvl: "Native",
-    contactTitle: "Contact",
-  },
-  he: {
-    name: "אלכסנדר ארחיפוב",
-    title: "בודק תוכנה | בדיקות ידניות ואוטומטיות",
-    aboutTitle: "עליי",
-    aboutText:
-      "אני מהנדס בדיקות תוכנה (QA) עם ניסיון מעשי גם בבדיקות ידניות וגם בבדיקות אוטומטיות. מיומן בעבודה עם \
-      ‎Selenium (Python)‎ ו-‎Playwright (JavaScript)‎, בעל הבנה טובה בתיעוד בדיקות, \
-      SQL ובדיקות API. נלהב לגבי אוטומציה, אך גם מבצע בדיקות ידניות כשנדרש.",
-    skillsTitle: "כישורים",
-    skillsList: [
-      "בדיקות ידניות",
-      "בדיקות אוטומטיות (Selenium, Playwright)",
-      "תיעוד ובדיקות",
-      "SQL ו-API Testing",
-      "יסודות ניתוח נתונים",
-    ],
-    educationTitle: "השכלה וקורסים",
-    educationList: [
-      "2024, קורס QA, הטכניון - מכון טכנולוגי לישראל",
-      "2023, קורס אנליסט נתונים, TripleTen ישראל",
-    ],
-    projectsTitle: "פרויקטים",
-    projectsList: [
-      "2025, Ivory.co.il – אוטומציה ב-Python Selenium (פרויקט אישי)",
-      "2025, Ivory.co.il – אוטומציה ב-JavaScript Playwright (פרויקט אישי)",
-    ],
-    languageTitle: "שפות",
-    languageEngName: "אנגלית",
-    languageEngLvl: "שוטף",
-    languageHebName: "עברית",
-    languageHebLvl: "בינוני",
-    languageRusName: "רוסית",
-    languageRusLvl: "שפת אם",
-    experienceTitle: "ניסיון עבודה",
-    experienceList: [
-      "Supply & Tenders Coordinator, Logistics & Sales (6 שנים)",
-      "QA Projects & Automation Practice (עצמאי)",
-    ],
-    contactTitle: "צור קשר",
-  },
-};
+let translations = {};
+
+fetch("translations.json")
+  .then((response) => response.json())
+  .then((data) => {
+    translations = data;
+    setLanguage("en");
+  });
 
 function setLanguage(lang) {
   if (lang === "he") {
@@ -163,7 +48,15 @@ function setLanguage(lang) {
   projectsUl.innerHTML = "";
   translations[lang].projectsList.forEach((item) => {
     const li = document.createElement("li");
-    li.textContent = item;
+    const textNode = document.createTextNode(item.text + " (");
+    const link = document.createElement("a");
+    link.href = item.link;
+    link.textContent = "Pet Project";
+    link.target = "_blank";
+    link.rel = "noopener";
+    li.appendChild(textNode);
+    li.appendChild(link);
+    li.appendChild(document.createTextNode(")"));
     projectsUl.appendChild(li);
   });
 
@@ -195,5 +88,52 @@ function setLanguage(lang) {
   document.getElementById("contact-title").textContent =
     translations[lang].contactTitle;
 }
+
+// Timeouts and intervals to trigger animations
+
+const intro = document.getElementById("photo-intro");
+let timers = [];
+timers.push(setTimeout(() => intro.classList.add("peek-left"), 2000));
+timers.push(
+  setTimeout(() => {
+    intro.classList.remove("peek-left");
+    intro.classList.add("peek-right");
+  }, 4000)
+);
+timers.push(
+  setTimeout(() => {
+    intro.style.display = "none";
+  }, 6000)
+);
+
+function stopAnimation() {
+  // удаляем классы анимации
+  intro.classList.remove("peek-left", "peek-right");
+
+  // останавливаем CSS-анимацию
+  intro.style.animation = "none";
+  setTimeout(() => (intro.style.animation = ""), 10);
+
+  // очищаем все таймеры
+  timers.forEach((t) => clearTimeout(t));
+  timers = [];
+}
+
+// Curtain, ScrollMagic
+
+window.addEventListener("load", function () {
+  document.getElementById("curtain").classList.add("hide");
+  var controller = new ScrollMagic.Controller();
+
+  document.querySelectorAll("section").forEach(function (sec) {
+    new ScrollMagic.Scene({
+      triggerElement: sec,
+      triggerHook: 0.9,
+      reverse: false,
+    })
+      .setClassToggle(sec, "visible")
+      .addTo(controller);
+  });
+});
 
 setLanguage("en");

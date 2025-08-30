@@ -1,0 +1,131 @@
+{
+  "ru": {
+    "name": "Александр Архипов",
+    "title": "QA инженер | Ручное и автоматизированное тестирование",
+    "aboutTitle": "Обо мне",
+    "aboutText": "Я инженер по тестированию (QA) с практическим опытом как ручного, так и автоматизированного тестирования. Обладаю навыками работы с Selenium (Python) и Playwright (JavaScript), хорошо разбираюсь в тестовой документации, SQL и API-тестировании. Увлечён автоматизацией, но при необходимости с лёгкостью выполняю ручное тестирование.",
+    "skillsTitle": "Навыки",
+    "skillsList": [
+      "Ручное тестирование",
+      "Автоматизированное тестирование (Selenium, Playwright)",
+      "Тестовая документация и тест-кейсы",
+      "SQL и API тестирование",
+      "Базовые навыки анализа данных"
+    ],
+    "educationTitle": "Образование и курсы",
+    "educationList": [
+      "2024, Курс QA, Technion — Израильский технологический институт",
+      "2023, Курс Data Analyst, TripleTen Израиль"
+    ],
+    "projectsTitle": "Проекты",
+    "projectsList": [
+      {
+        "text": "2025, Ivory.co.il – Python Selenium Automation",
+        "link": "https://github.com/sinrabanse/QA_Automation_POM_Python_Project"
+      },
+      {
+        "text": "2025, Ivory.co.il – JavaScript Playwright Automation",
+        "link": "https://github.com/sinrabanse/QA_Automation_SelfProject_Ivory"
+      }
+    ],
+    "languageTitle": "Языки",
+    "languageEngName": "Английский",
+    "languageEngLvl": "Свободно",
+    "languageHebName": "Иврит",
+    "languageHebLvl": "Средний",
+    "languageRusName": "Русский",
+    "languageRusLvl": "Родной",
+    "experienceTitle": "Опыт работы",
+    "experienceList": [
+      "Supply & Tenders Coordinator, Logistics & Sales (6 лет)",
+      "QA Projects & Automation Practice (самостоятельно)"
+    ],
+    "contactTitle": "Контакты"
+  },
+  "en": {
+    "name": "Aleksandr Arkhipov",
+    "title": "QA Engineer",
+    "aboutTitle": "About me",
+    "aboutText": "I am a QA Engineer with hands-on experience in both manual and automated testing. Skilled in Selenium (Python) and Playwright (JavaScript), with a strong understanding of test documentation, SQL, and API testing. Passionate about automation and comfortable performing manual testing when needed.",
+    "skillsTitle": "Skills",
+    "skillsList": [
+      "Manual Testing",
+      "Automated Testing (Selenium, Playwright)",
+      "Test Documentation & Test Cases",
+      "SQL & API Testing",
+      "Data Analysis Basics"
+    ],
+    "educationTitle": "Education and Courses",
+    "educationList": [
+      "2024, QA Course, Technion - Israel Institute of Technology",
+      "2023, Data Analyst Professional Course, TripleTen Israel"
+    ],
+    "projectsTitle": "Projects",
+    "projectsList": [
+      {
+        "text": "2025, Ivory.co.il – Python Selenium Automation",
+        "link": "https://github.com/sinrabanse/QA_Automation_POM_Python_Project"
+      },
+      {
+        "text": "2025, Ivory.co.il – JavaScript Playwright Automation",
+        "link": "https://github.com/sinrabanse/QA_Automation_SelfProject_Ivory"
+      }
+    ],
+    "experienceTitle": "Work Experience",
+    "experienceList": [
+      "2025 – QA Tester, uTest (freelance)",
+      "2018-2024 – Supply&Tenders Coordinator, B2China.ru (computer hardware)"
+    ],
+    "languageTitle": "Languages",
+    "languageEngName": "English",
+    "languageEngLvl": "Fluent",
+    "languageHebName": "Hebrew",
+    "languageHebLvl": "Intermediate",
+    "languageRusName": "Russian",
+    "languageRusLvl": "Native",
+    "contactTitle": "Contact"
+  },
+  "he": {
+    "name": "אלכסנדר ארחיפוב",
+    "title": "בודק תוכנה | בדיקות ידניות ואוטומטיות",
+    "aboutTitle": "עליי",
+    "aboutText": "אני מהנדס בדיקות תוכנה (QA) עם ניסיון מעשי גם בבדיקות ידניות וגם בבדיקות אוטומטיות. מיומן בעבודה עם Selenium (Python) ו-Playwright (JavaScript), בעל הבנה טובה בתיעוד בדיקות, SQL ובדיקות API. נלהב לגבי אוטומציה, אך גם מבצע בדיקות ידניות כשנדרש.",
+    "skillsTitle": "כישורים",
+    "skillsList": [
+      "בדיקות ידניות",
+      "בדיקות אוטומטיות (Selenium, Playwright)",
+      "תיעוד ובדיקות",
+      "SQL ו-API Testing",
+      "יסודות ניתוח נתונים"
+    ],
+    "educationTitle": "השכלה וקורסים",
+    "educationList": [
+      "2024, קורס QA, הטכניון - מכון טכנולוגי לישראל",
+      "2023, קורס אנליסט נתונים, TripleTen ישראל"
+    ],
+    "projectsTitle": "פרויקטים",
+    "projectsList": [
+      {
+        "text": "2025, Ivory.co.il – אוטומציה ב-Python Selenium (פרויקט אישי)",
+        "link": "https://github.com/sinrabanse/QA_Automation_POM_Python_Project"
+      },
+      {
+        "text": "2025, Ivory.co.il – אוטומציה ב-JavaScript Playwright (פרויקט אישי)",
+        "link": "https://github.com/sinrabanse/QA_Automation_SelfProject_Ivory"
+      }
+    ],
+    "languageTitle": "שפות",
+    "languageEngName": "אנגלית",
+    "languageEngLvl": "שוטף",
+    "languageHebName": "עברית",
+    "languageHebLvl": "בינוני",
+    "languageRusName": "רוסית",
+    "languageRusLvl": "שפת אם",
+    "experienceTitle": "ניסיון עבודה",
+    "experienceList": [
+      "Supply & Tenders Coordinator, Logistics & Sales (6 שנים)",
+      "QA Projects & Automation Practice (עצמאי)"
+    ],
+    "contactTitle": "צור קשר"
+  }
+}

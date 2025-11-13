@@ -24,6 +24,37 @@ function setLanguage(lang) {
   document.getElementById("skills-title").textContent =
     translations[lang].skillsTitle;
 
+  document.getElementById("experience-title").textContent =
+    translations[lang].experienceTitle;
+
+  const expUl = document.getElementById("experience-list");
+  expUl.innerHTML = "";
+  translations[lang].experienceList.forEach((item) => {
+    const li = document.createElement("li");
+
+    const yearSpan = document.createElement("span");
+    yearSpan.classList.add("exp-year");
+    yearSpan.textContent = item.year;
+
+    const textSpan = document.createElement("span");
+    textSpan.classList.add("exp-text");
+
+    if (item.link) {
+      // создаем HTML, где заменяем "RoiLabs" на ссылку
+      const safeHTML = item.text.replace(
+        "RoiLabs",
+        `<a href="${item.link}" target="_blank" rel="noopener">RoiLabs</a>`
+      );
+      textSpan.innerHTML = safeHTML; // вставляем HTML со ссылкой
+    } else {
+      textSpan.textContent = item.text;
+    }
+
+    li.appendChild(yearSpan);
+    li.appendChild(textSpan);
+    expUl.appendChild(li);
+  });
+
   const skillsUl = document.getElementById("skills-list");
   skillsUl.innerHTML = "";
   translations[lang].skillsList.forEach((item) => {
@@ -58,16 +89,6 @@ function setLanguage(lang) {
     li.appendChild(link);
     li.appendChild(document.createTextNode(")"));
     projectsUl.appendChild(li);
-  });
-
-  document.getElementById("experience-title").textContent =
-    translations[lang].experienceTitle;
-  const expUl = document.getElementById("experience-list");
-  expUl.innerHTML = "";
-  translations[lang].experienceList.forEach((item) => {
-    const li = document.createElement("li");
-    li.textContent = item;
-    expUl.appendChild(li);
   });
 
   document.getElementById("language-title").textContent =

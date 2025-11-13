@@ -184,3 +184,39 @@ span.bold {
 #photo-intro.peek-right img {
   animation: peek-right 2s ease-in-out forwards;
 }
+
+#experience-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#experience-list li {
+  display: grid;
+  grid-template-columns: 110px 1fr; /* ширина колонки с годами */
+  gap: 20px;
+  margin-bottom: 8px;
+}
+
+.exp-year {
+  font-weight: bold;
+  color: #555;
+  white-space: nowrap;
+}
+
+.exp-text {
+  text-align: left;
+}
+
+body[dir="rtl"] .exp-text {
+  text-align: right;
+}
+
+#experience-list a {
+  color: #0078d7;
+  text-decoration: none;
+}
+
+#experience-list a:hover {
+  text-decoration: underline;
+}

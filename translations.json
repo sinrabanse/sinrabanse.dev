@@ -1,23 +1,23 @@
 {
   "ru": {
     "name": "Александр Архипов",
-    "title": "QA инженер",
+    "title": "QA инженер | Python, Playwright | GCP | Системы тестирования и оптимизация",
     "aboutTitle": "Обо мне",
-    "aboutText": "Я инженер по тестированию с опытом как ручного, так и автоматизированного тестирования. Владeю Python, JavaScript, Selenium и Playwright, хорошо понимаю процессы тестирования, умею работать с тестовой документацией, SQL и API. Увлечён автоматизацией, но при необходимости выполняю ручное тестирование с тем же вниманием к деталям.",
+    "aboutText": "QA Automation Engineer с практическим опытом создания и поддержки автоматизированных тестовых систем для веб-приложений. Я работаю в первую очередь с Python и Playwright, уделяя внимание проектированию масштабируемых тестовых решений, проверке сложных перенаправлений и оптимизации выполнения тестов. Я создавал многорегиональные системы тестирования на основе прокси и интегрировал автоматизированные тесты в пайплайны GCP (Cloud Run, Cloud Build). Моя работа также включает сокращение затрат на инфраструктуру через API-валидацию и обеспечение качества маркетинговых кампаний, CRM-коммуникаций и мультиязычного контента. Мне нравится решать задачи за пределами простого создания тестов — улучшать архитектуру тестов, повышать производительность и делать QA-процессы более эффективными и надёжными.",
     "skillsTitle": "Навыки",
     "skillsList": [
-      "Автоматизированное тестирование (Selenium, Playwright)",
-      "Написание скриптов автоматизации (Python, JavaScript)",
-      "Подготовка тестовой документации и тест-кейсов",
-      "Тестирование API",
-      "Работа с базами данных и SQL",
-      "Ручное тестирование",
-      "Базовые знания анализа данных"
+      "Python",
+      "Playwright",
+      "Google Cloud Platform (GCP)",
+      "Автоматизированные тестовые системы",
+      "API-тестирование",
+      "Docker",
+      "Оптимизация QA-процессов"
     ],
     "educationTitle": "Образование и курсы",
     "educationList": [
-      "2024, Курс QA, Технион — Израильский технологический институт",
-      "2023, Курс Data Analyst, TripleTen Израиль"
+      "2024, QA курс, Технион — Израильский технологический институт",
+      "2023, Профессиональное обучение Data Analyst, TripleTen Израиль"
     ],
     "projectsTitle": "Проекты",
     "projectsList": [
@@ -33,17 +33,17 @@
     "experienceTitle": "Опыт работы",
     "experienceList": [
       {
-        "year": "2025–2026",
-        "text": "QA Web Engineer, RoiLabs (стартап в игровой индустрии), Израиль",
+        "year": "2025–Present",
+        "text": "Software QA Engineer, ROI Labs — разработка и поддержка автоматизированных тестовых систем, валидации redirect, GCP-пайплайнов и CRM/маркетинговой QA",
         "link": "https://www.roilabs.io/"
       },
       {
         "year": "2025",
-        "text": "QA Tester, uTest (фриланс)"
+        "text": "Software QA Engineer, uTest (фриланс) — ручное тестирование и отчётность по багам"
       },
       {
-        "year": "2018–2024",
-        "text": "Supply & Tenders Coordinator, B2China (компьютерное оборудование)"
+        "year": "2018–2025",
+        "text": "Supply & Tenders Coordinator, B2China — координация международных поставок и работы с китайскими поставщиками"
       }
     ],
     "languageTitle": "Языки",
@@ -57,23 +57,23 @@
   },
   "en": {
     "name": "Aleksandr Arkhipov",
-    "title": "QA Engineer",
+    "title": "QA Engineer | Python, Playwright | GCP | Test Systems & Optimization",
     "aboutTitle": "About me",
-    "aboutText": "I am a QA Engineer with hands-on experience in both manual and automated testing. Skilled in Python, JavaScript, Selenium, Playwright, with a strong understanding of test documentation, SQL, and API testing. Passionate about automation and comfortable performing manual testing when needed.",
+    "aboutText": "QA Automation Engineer with hands-on experience in building and maintaining automated test systems for web applications. I work primarily with Python and Playwright, focusing on designing scalable test solutions, validating complex redirect flows, and optimizing test execution. I’ve built multi-GEO testing systems using proxy-based approaches and integrated automated tests into GCP pipelines (Cloud Run, Cloud Build). My work also includes reducing infrastructure costs through API-based validation strategies and ensuring quality across marketing campaigns, CRM communications, and multi-language content. I enjoy solving problems beyond test creation - improving test architecture, optimizing performance, and making QA processes more efficient and reliable.",
     "skillsTitle": "Skills",
     "skillsList": [
-      "Automated Testing (Selenium, Playwright)",
-      "Automation Scripting (Python, JavaScript)",
-      "Test Documentation and Test Cases",
-      "API Testing",
-      "SQL and Databases",
-      "Manual Testing",
-      "Data Analysis Background"
+      "Python",
+      "Playwright",
+      "Google Cloud Platform (GCP)",
+      "Test automation systems",
+      "API testing",
+      "Docker",
+      "QA process optimization"
     ],
     "educationTitle": "Education and Courses",
     "educationList": [
       "2024, QA Course, Technion - Israel Institute of Technology",
-      "2023, Data Analyst Professional Course, TripleTen Israel"
+      "2023, Data Analyst Professional Training, TripleTen Israel"
     ],
     "projectsTitle": "Projects",
     "projectsList": [
@@ -89,17 +89,17 @@
     "experienceTitle": "Work Experience",
     "experienceList": [
       {
-        "year": "2025–2026",
-        "text": "QA Web Engineer, RoiLabs (startup in gaming industry), Israel",
+        "year": "2025–Present",
+        "text": "Software QA Engineer, ROI Labs — test automation systems, redirect validation, GCP pipelines, and marketing/CRM QA",
         "link": "https://www.roilabs.io/"
       },
       {
         "year": "2025",
-        "text": "QA Tester, uTest (freelance)"
+        "text": "Software QA Engineer, uTest (freelance) — manual testing and defect reporting"
       },
       {
-        "year": "2018–2024",
-        "text": "Supply and Tenders Coordinator, B2China (computer hardware)"
+        "year": "2018–2025",
+        "text": "Supply & Tenders Coordinator, B2China — coordinating international orders and supplier workflow"
       }
     ],
     "languageTitle": "Languages",
@@ -113,23 +113,23 @@
   },
   "he": {
     "name": "אלכסנדר ארחיפוב",
-    "title": "QA Engineer",
+    "title": "QA Engineer | Python, Playwright | GCP | Test Systems & Optimization",
     "aboutTitle": "עליי",
-    "aboutText": "אני מהנדס בדיקות תוכנה (QA) עם ניסיון מעשי בבדיקות ידניות ואוטומטיות. שולט ב-Python וב-JavaScript, עם ידע מעמיק בעבודה עם Selenium ו-Playwright, תיעוד בדיקות, SQL ובדיקות API. נלהב מאוטומציה, אך גם מבצע בדיקות ידניות בקפדנות כשנדרש.",
+    "aboutText": "מהנדס QA עם ניסיון מעשי בבניית ותחזוקת מערכות בדיקות אוטומטיות עבור יישומי ווב. אני עובד בעיקר עם Python ו-Playwright, מתמקד בתכנון פתרונות בדיקה מדרגיים, אימות זרימות הפניה מורכבות, ואופטימיזציה של הרצת בדיקות. בניתי מערכות בדיקה רב-גיאו באמצעות גישות מבוססות פרוקסי ואינטגרציה של בדיקות אוטומטיות בפייפליינים של GCP (Cloud Run, Cloud Build). העבודה שלי כוללת גם הפחתת עלויות תשתית באמצעות אסטרטגיות אימות API והבטחת איכות בקמפיינים שיווקיים, תקשורת CRM ותוכן ברב-לשוני. אני נהנה לפתור אתגרים מעבר ליצירת בדיקות — לשפר ארכיטקטורת בדיקות, לייעל ביצועים ולעשות תהליכי QA יותר יעילים ואמינים.",
     "skillsTitle": "כישורים",
     "skillsList": [
-      "בדיקות אוטומטיות (Selenium, Playwright)",
-      "כתיבת סקריפטים לאוטומציה (Python, JavaScript)",
-      "תיעוד ובניית מקרי בדיקה",
+      "Python",
+      "Playwright",
+      "Google Cloud Platform (GCP)",
+      "מערכות בדיקות אוטומטיות",
       "בדיקות API",
-      "SQL ועבודה עם בסיסי נתונים",
-      "בדיקות ידניות",
-      "ידע בסיסי בניתוח נתונים"
+      "Docker",
+      "אופטימיזציה של תהליכי QA"
     ],
     "educationTitle": "השכלה וקורסים",
     "educationList": [
       "2024, קורס QA, הטכניון – המכון הטכנולוגי לישראל",
-      "2023, קורס אנליסט נתונים, TripleTen ישראל"
+      "2023, הכשרה מקצועית לאנליסט נתונים, TripleTen ישראל"
     ],
     "projectsTitle": "פרויקטים",
     "projectsList": [
@@ -145,17 +145,17 @@
     "experienceTitle": "ניסיון מקצועי",
     "experienceList": [
       {
-        "year": "2025–2026",
-        "text": "QA Web Engineer, RoiLabs (סטארט-אפ בתחום הגיימינג), ישראל",
+        "year": "2025–Present",
+        "text": "Software QA Engineer, ROI Labs — מערכות אוטומציה, אימות redirect, פייפליינים של GCP ו-QA שיווקית/CRM",
         "link": "https://www.roilabs.io/"
       },
       {
         "year": "2025",
-        "text": "QA Tester, uTest (פרילנס)"
+        "text": "Software QA Engineer, uTest (פרילנס) — בדיקות ידניות ודיווח על תקלות"
       },
       {
-        "year": "2018–2024",
-        "text": "Supply & Tenders Coordinator, B2China (ציוד מחשבים)"
+        "year": "2018–2025",
+        "text": "Supply & Tenders Coordinator, B2China — תיאום סחורות בינלאומיות וניהול ספקים"
       }
     ],
     "languageTitle": "שפות",

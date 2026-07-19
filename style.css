@@ -86,10 +86,6 @@ header #title {
   color: rgba(255, 255, 255, 0.75);
 }
 
-.hero-links a {
-  min-width: 120px;
-}
-
 .lang-switch button {
   cursor: pointer;
   background: rgba(255, 255, 255, 0.14);
@@ -140,6 +136,50 @@ ul li {
 
 ul li:last-child {
   margin-bottom: 0;
+}
+
+.experience-list li,
+.education-list li {
+  padding: 18px 0;
+  border-bottom: 1px solid #e2e8f0;
+}
+
+.experience-list li:last-child,
+.education-list li:last-child {
+  border-bottom: none;
+}
+
+.exp-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  align-items: baseline;
+  margin-bottom: 6px;
+}
+
+.exp-year,
+.edu-year {
+  font-weight: 700;
+  color: #2f5c9b;
+  min-width: 100px;
+}
+
+.exp-company {
+  font-weight: 700;
+  color: #1f2937;
+}
+
+.exp-role,
+.edu-title {
+  display: block;
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.exp-text {
+  margin: 0;
+  color: #475569;
 }
 
 a {
@@ -194,6 +234,18 @@ span.bold {
   .hero-links,
   .lang-switch {
     flex-direction: column;
+  }
+
+  .hero-links a,
+  .lang-switch button {
+    padding: 8px 14px;
+    font-size: 0.88rem;
+    min-width: 0;
+    width: auto;
+  }
+
+  .hero-links span {
+    display: none;
   }
 
   section {

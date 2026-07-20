@@ -151,14 +151,15 @@ ul li:last-child {
   align-items: center;
   justify-content: center;
   text-align: center;
-  padding: 10px 14px;
+  padding: 0 14px;
+  height: 56px;
   border-radius: 999px;
   background: rgba(47, 92, 155, 0.12);
   color: #183a6f;
   border: 1px solid rgba(47, 92, 155, 0.18);
   font-weight: 600;
   margin-bottom: 0;
-  width: auto;
+  width: 100%;
   justify-self: center;
   min-width: 0;
 }

@@ -150,6 +150,7 @@ ul li:last-child {
   display: inline-flex;
   align-items: center;
   justify-content: center;
+  text-align: center;
   padding: 10px 14px;
   border-radius: 999px;
   background: rgba(47, 92, 155, 0.12);
@@ -157,6 +158,7 @@ ul li:last-child {
   border: 1px solid rgba(47, 92, 155, 0.18);
   font-weight: 600;
   margin-bottom: 0;
+  width: 100%;
 }
 
 .experience-list li,
@@ -190,6 +192,10 @@ ul li:last-child {
 .edu-title {
   font-weight: 600;
   color: #334155;
+}
+
+.exp-line {
+  gap: 8px;
 }
 
 .exp-title {
@@ -280,6 +286,15 @@ span.bold {
     width: auto;
   }
 
+  .skills-list {
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  }
+
+  .skills-list li {
+    padding: 8px 10px;
+    font-size: 0.9rem;
+  }
+
   .hero-links span {
     display: inline-block;
   }
@@ -307,40 +322,4 @@ span.bold {
 .cta-button:hover {
   background: #f7f9ff;
   border-color: rgba(255, 255, 255, 0.45);
-}
-
-#experience-list {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-#experience-list li {
-  display: grid;
-  grid-template-columns: 110px 1fr;
-  gap: 20px;
-  margin-bottom: 16px;
-}
-
-.exp-year {
-  font-weight: 700;
-  color: #334155;
-  white-space: nowrap;
-}
-
-.exp-text {
-  text-align: left;
-}
-
-body[dir="rtl"] .exp-text {
-  text-align: right;
-}
-
-#experience-list a {
-  color: #1d4ed8;
-  text-decoration: none;
-}
-
-#experience-list a:hover {
-  text-decoration: underline;
 }

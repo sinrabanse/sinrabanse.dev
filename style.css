@@ -158,7 +158,9 @@ ul li:last-child {
   border: 1px solid rgba(47, 92, 155, 0.18);
   font-weight: 600;
   margin-bottom: 0;
-  width: 100%;
+  width: auto;
+  justify-self: center;
+  min-width: 0;
 }
 
 .experience-list li,
@@ -287,12 +289,13 @@ span.bold {
   }
 
   .skills-list {
-    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
   }
 
   .skills-list li {
     padding: 8px 10px;
     font-size: 0.9rem;
+    width: auto;
   }
 
   .hero-links span {

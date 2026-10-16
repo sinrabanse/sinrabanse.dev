@@ -44,7 +44,7 @@ def bullets(items):
 add(f'<font name="{bold}" size="27" color="#183a6f">Aleksandr Arkhipov</font>',ParagraphStyle('Name',fontName=regular,leading=32,spaceAfter=7))
 add('<font size="12.5">QA Automation Engineer</font>',ParagraphStyle('Title',fontName=regular,leading=18,textColor=INK,spaceAfter=8))
 add('<font size="9" color="#536477">Israel · <link href="mailto:sinrabanse21@gmail.com">sinrabanse21@gmail.com</link> · <link href="tel:+972584221091">+972 58 4221091</link><br/><link href="https://www.linkedin.com/in/sinrabanse/">LinkedIn</link> · <link href="https://github.com/sinrabanse">GitHub</link> · <link href="https://www.sinrabanse.dev/">sinrabanse.dev</link></font>',ParagraphStyle('Contacts',fontName=regular,leading=15,spaceAfter=14))
-add('QA Automation Engineer building web test systems and CRM automation with Python, Playwright, and Google Cloud. Combines deterministic testing with AI-assisted validation to improve campaign quality and reduce repetitive work.')
+add('QA Automation Engineer building automated test systems and cloud pipelines with Python, Google Cloud, and AI agents. Connects data and services into reusable workflows with built-in validation and reporting to reduce manual work across teams and products.')
 section('Experience')
 role('Software QA Engineer · ROI Labs','Sep 2025 - Present','Full-time · Herzliya, Israel')
 bullets([

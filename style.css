@@ -34,10 +34,15 @@ header h1 {
   letter-spacing: -0.04em;
 }
 
-header #title {
+header .hero-title {
   margin: 16px auto 0;
   font-size: 1.05rem;
   opacity: 0.92;
+}
+
+.hero-location {
+  margin: 10px 0 0;
+  color: #e1ebff;
 }
 
 .hero-subtitle {
@@ -225,6 +230,22 @@ ul li:last-child {
 .exp-text {
   margin: 0;
   color: #475569;
+}
+
+.experience-list .exp-details {
+  list-style: disc;
+  padding-left: 22px;
+  color: #475569;
+}
+
+.experience-list .exp-details li {
+  padding: 0;
+  border: 0;
+  margin-bottom: 8px;
+}
+
+.experience-list .exp-details li:last-child {
+  margin-bottom: 0;
 }
 
 a {

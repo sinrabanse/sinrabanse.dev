@@ -5,6 +5,32 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Aleksandr Arkhipov — QA Engineer</title>
+    <meta
+      name="description"
+      content="Aleksandr Arkhipov, QA Automation Engineer in Israel. Python, Playwright, GCP, CRM campaign automation, and deterministic testing with AI-assisted validation."
+    />
+    <link rel="canonical" href="https://www.sinrabanse.dev/" />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:site_name" content="Aleksandr Arkhipov" />
+    <meta property="og:title" content="Aleksandr Arkhipov — QA Engineer" />
+    <meta
+      property="og:description"
+      content="QA Automation Engineer in Israel. Building test systems with Python, Playwright and GCP, CRM campaign automation, and AI-assisted quality checks."
+    />
+    <meta property="og:url" content="https://www.sinrabanse.dev/" />
+    <meta property="og:image" content="https://www.sinrabanse.dev/social-preview.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="Aleksandr Arkhipov, QA Automation Engineer. Python, Playwright, GCP, and AI-assisted QA." />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:image" content="https://www.sinrabanse.dev/social-preview.png" />
+    <meta name="twitter:image:alt" content="Aleksandr Arkhipov, QA Automation Engineer. Python, Playwright, GCP, and AI-assisted QA." />
+    <meta name="twitter:title" content="Aleksandr Arkhipov — QA Engineer" />
+    <meta
+      name="twitter:description"
+      content="QA Automation Engineer in Israel. Python, Playwright, GCP, CRM campaign automation, and AI-assisted quality checks."
+    />
     <link
       href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap"
       rel="stylesheet"
@@ -12,6 +38,7 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+    <a class="skip-link" href="#main-content">Skip to content</a>
     <header>
       <h1>Aleksandr Arkhipov</h1>
       <p class="hero-title">
@@ -19,8 +46,8 @@
       </p>
       <p class="hero-location">Israel</p>
       <p class="hero-subtitle">
-        Building scalable automated test systems, redirect validation, and
-        quality pipelines for web products.
+        Building automated test systems, CRM campaign workflows, and
+        AI-assisted quality checks on Google Cloud.
       </p>
       <div class="hero-links">
         <a
@@ -34,52 +61,64 @@
         <span>•</span>
         <a
           class="cta-button"
-          href="Aleksandr-Arkhipov-QA-Engineer-Resume.docx"
-          download="Aleksandr-Arkhipov-QA-Engineer-Resume.docx"
-          >Download Resume</a
+          href="Aleksandr-Arkhipov-QA-Engineer-Resume.pdf"
+          download="Aleksandr-Arkhipov-QA-Engineer-Resume.pdf"
+          >Download Resume · PDF</a
         >
       </div>
     </header>
 
-    <main class="container">
+    <main class="container" id="main-content">
       <section>
         <h2>About me</h2>
         <p>
-          QA Automation Engineer with hands-on experience in building and
-          maintaining automated test systems for web applications. I work
-          primarily with Python and Playwright, focusing on designing scalable
-          test solutions, validating complex redirect flows, and optimizing test
-          execution.
-        </p>
-        <p>
-          I’ve built multi-GEO testing systems using proxy-based approaches and
-          integrated automated tests into GCP pipelines (Cloud Run, Cloud
-          Build), with Firestore and Cloud Storage for data storage. My work
-          also includes reducing infrastructure costs through API-based
-          validation strategies.
-        </p>
-        <p>
-          I build tools that simplify campaign creation for CRM managers,
-          with automated validation that includes AI checks and a follow-up
-          verification stage. I also design marketing campaign QA systems
-          that combine deterministic scripted checks with additional AI review.
+          I’m a QA Automation Engineer in Israel, building reliable test systems
+          and tools that simplify daily work for CRM teams. My focus is turning
+          repetitive checks into reusable, observable workflows.
         </p>
       </section>
 
-      <section>
-        <h2>What I do</h2>
-        <ul>
-          <li>Automated UI testing with Playwright and Python</li>
-          <li>Multi-region redirect validation and proxy-based QA</li>
-          <li>
-            GCP test infrastructure: Cloud Run, Cloud Build, Firestore, Cloud Storage
-          </li>
-          <li>CRM campaign creation automation with AI checks and follow-up verification</li>
-          <li>Marketing campaign QA combining deterministic scripts and AI review</li>
-          <li>API-based validation to reduce infrastructure costs</li>
-          <li>Marketing campaign, CRM and localization quality assurance</li>
-          <li>Test architecture optimization and performance improvement</li>
-        </ul>
+      <section aria-labelledby="campaign-case-title">
+        <h2 id="campaign-case-title">Case Study: Marketing Campaign QA Pipeline</h2>
+        <h3>The challenge</h3>
+        <p>
+          Simplify campaign preparation for CRM managers and automate checks
+          of marketing campaigns across numerical values and language versions.
+        </p>
+        <div class="case-result">
+          <span class="result-label">Approximate campaign checking time</span>
+          <div><span class="result-before">2 days</span><span class="result-arrow" aria-hidden="true"> → </span><strong>2 hours</strong></div>
+          <p>Based on my estimate of the previous and current workflow.</p>
+        </div>
+        <figure class="pipeline" aria-labelledby="pipeline-caption">
+          <div class="pipeline-stage">
+            <span class="stage-label">01 / Prepare</span>
+            <h3>Brief → campaign data</h3>
+            <p>AI fills Google Sheets from a short brief. Structured campaign data is transferred to Firestore.</p>
+            <div class="stage-tools">Google Sheets · Firestore</div>
+          </div>
+          <div class="pipeline-stage">
+            <span class="stage-label">02 / Launch</span>
+            <h3>Dashboard → Cloud Run</h3>
+            <p>A button in the Google Cloud dashboard triggers execution with reusable code and test resources.</p>
+            <div class="stage-tools">GitHub · Cloud Storage</div>
+          </div>
+          <div class="pipeline-stage pipeline-checks">
+            <span class="stage-label">03 / Validate</span>
+            <h3>Two complementary checks</h3>
+            <div class="check-branches">
+              <div><strong>Python + Playwright</strong><p>Deterministic checks on campaign websites.</p></div>
+              <div><strong>Claude API</strong><p>Numerical values, sanity checks, and campaign language versions.</p></div>
+            </div>
+          </div>
+          <div class="pipeline-stage">
+            <span class="stage-label">04 / Report</span>
+            <h3>Archive → email report</h3>
+            <p>Results are archived in Cloud Storage. A report is emailed for human review.</p>
+            <div class="stage-tools">Cloud Storage · Email</div>
+          </div>
+          <figcaption id="pipeline-caption">From a campaign brief to an archived QA report, launched from one dashboard.</figcaption>
+        </figure>
       </section>
 
       <section>
@@ -92,15 +131,11 @@
               <span class="exp-title">ROI Labs, Software QA Engineer</span>
             </div>
             <ul class="exp-details">
-              <li>Developed and maintained automated UI test suites using Python and Playwright.</li>
-              <li>Built a scalable, proxy-based testing system to validate redirects across multiple GEOs, brands, and devices.</li>
-              <li>Reduced test traffic and execution costs by introducing API-based checks.</li>
-              <li>Integrated automated tests into GCP pipelines using Cloud Run Jobs and Cloud Build.</li>
-              <li>Worked with Firestore as part of GCP-based test infrastructure.</li>
-              <li>Built automation to simplify marketing campaign creation for CRM managers, with integrated AI checks followed by an additional verification stage.</li>
-              <li>Designed a marketing campaign QA system combining deterministic scripted validation with additional review by AI agents.</li>
-              <li>Designed test result storage and reporting using MongoDB and cloud storage.</li>
-              <li>Performed CRM and marketing campaign QA, validating multilingual content, promotion consistency, links, and redirect logic.</li>
+              <li>Built the campaign automation and QA pipeline described above.</li>
+              <li>Developed proxy-based redirect validation across GEOs, brands, and devices.</li>
+              <li>Reduced test traffic and infrastructure costs with API-based checks.</li>
+              <li>Integrated automated tests with Cloud Run Jobs and Cloud Build; implemented result storage and reporting with Firestore, MongoDB, and Cloud Storage.</li>
+              <li>Validated CRM communications, promotions, links, and multilingual content.</li>
             </ul>
           </li>
           <li>

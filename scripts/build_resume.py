@@ -42,9 +42,9 @@ def bullets(items):
     for text in items: add('• '+text, bullet)
 
 add(f'<font name="{bold}" size="27" color="#183a6f">Aleksandr Arkhipov</font>',ParagraphStyle('Name',fontName=regular,leading=32,spaceAfter=7))
-add('<font size="12.5">QA Automation Engineer</font>',ParagraphStyle('Title',fontName=regular,leading=18,textColor=INK,spaceAfter=8))
+add('<font size="12.5">QA Automation Engineer / SDET</font>',ParagraphStyle('Title',fontName=regular,leading=18,textColor=INK,spaceAfter=8))
 add('<font size="9" color="#536477">Israel · <link href="mailto:sinrabanse21@gmail.com">sinrabanse21@gmail.com</link> · <link href="tel:+972584221091">+972 58 4221091</link><br/><link href="https://www.linkedin.com/in/sinrabanse/">LinkedIn</link> · <link href="https://github.com/sinrabanse">GitHub</link> · <link href="https://www.sinrabanse.dev/">sinrabanse.dev</link></font>',ParagraphStyle('Contacts',fontName=regular,leading=15,spaceAfter=14))
-add('QA Automation Engineer building automated test systems and cloud pipelines with Python, Google Cloud, and AI agents. Connects data and services into reusable workflows with built-in validation and reporting to reduce manual work across teams and products.')
+add('QA Automation Engineer / SDET building automated test systems and cloud pipelines with Python, Google Cloud, and AI agents. Connects data and services into reusable workflows with built-in validation and reporting to reduce manual work across teams and products.')
 section('Experience')
 role('Software QA Engineer · ROI Labs','Sep 2025 - Present','Full-time · Herzliya, Israel')
 bullets([
@@ -68,5 +68,5 @@ section('Languages')
 add('English: Fluent · Hebrew: Intermediate · Russian: Native',small)
 
 output=ROOT/'Aleksandr-Arkhipov-QA-Engineer-Resume.pdf'
-SimpleDocTemplate(str(output), pagesize=(595.28,841.89), leftMargin=48, rightMargin=48, topMargin=40,bottomMargin=36,title='Aleksandr Arkhipov - QA Automation Engineer',author='Aleksandr Arkhipov').build(story)
+SimpleDocTemplate(str(output), pagesize=(595.28,841.89), leftMargin=48, rightMargin=48, topMargin=40,bottomMargin=36,title='Aleksandr Arkhipov - QA Automation Engineer / SDET',author='Aleksandr Arkhipov').build(story)
 print(output)
